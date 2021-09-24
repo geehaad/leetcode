@@ -23,7 +23,7 @@ class Solution(object):
                 n -=1
             last -=1
             
-            # fill nums1 with leftover nums2 ekements
+        # fill nums1 with leftover nums2 ekements
         while n>0:
                 nums1[last] = nums2[n-1]
                 n, last = n-1, last-1
