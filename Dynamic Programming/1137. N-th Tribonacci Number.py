@@ -5,7 +5,7 @@ class Solution(object):
         :rtype: int
         """
         
-         if n<=2:
+        if n<=2:
             return (n+1)>>1
         else:
             f = [0]*(n+1)
